@@ -19,8 +19,7 @@
 > Метод **Run** должен возвращать значение по следующему запросу 
 
 ```
-curl --location --request POST 'https://localhost:5001/api/weatherforecast/Run?temperature=1' \
---header 'Content-Type: application/json'
+curl --location --request POST 'https://localhost:5001/api/weatherforecast/Run?temperature=1'
 ```
 *(порт: 5001 в запросе может быть заменен на локальной машине. Важны **URL и параметры**)*
 
